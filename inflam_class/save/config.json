@@ -1,0 +1,16 @@
+{
+    "model": "vgg19",
+    "height": 300,
+    "width": 300,
+    "class_number": 2,
+    "batch": 32,
+    "learning_rate": 0.001,
+    "epochs": 2,
+    
+    "filenames_train": "./data/dataset/inflam_detect/csv/train.csv",
+    "filenames_val": "./data/dataset/inflam_detect/csv/val.csv",
+    "filenames_test": "./data/dataset/inflam_detect/csv/test.csv",
+
+    "save_dir": "./save/",
+    "test_output": "./res/"
+}

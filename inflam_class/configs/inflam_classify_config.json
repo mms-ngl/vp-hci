@@ -1,0 +1,18 @@
+{
+    "name": "inflam_classify",
+    "model": "vgg19",
+    "height": 300,
+    "width": 300,
+    "class_number": 3,
+    "batch": 32,
+    "learning_rate": 0.001,
+    "epochs": 20,
+    
+    "filenames_train": "./data/dataset/inflam_classify/csv/train.csv",
+    "filenames_val": "./data/dataset/inflam_classify/csv/val.csv",
+    "filenames_test": "./data/dataset/inflam_classify/csv/test.csv",
+
+    "save_dir": "./save/",
+    "test_output": "test_output",
+    "confusion_matrix_classes": ["dermatitis", "hives", "rashes"]
+}
